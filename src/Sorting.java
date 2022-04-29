@@ -8,7 +8,7 @@ class Sorting {
     {
         int lo = 0;
         int hi = arr_size - 1;
-        int mid = 0, temp = 0;
+        int mid = 0, temp;
         while (mid <= hi) {
             switch (a[mid]) {
                 case 0: {
@@ -33,12 +33,12 @@ class Sorting {
         }
     }
 
-    /* Utility function to print array arr[] */
-    static void printArray(int arr[], int arr_size)
+    /* Utility function to print array myArray[] */
+    static void printArray(int myArray[], int arrSize)
     {
         int i;
-        for (i = 0; i < arr_size; i++)
-            System.out.print(arr[i] + " ");
+        for (i = 0; i < arrSize; i++)
+            System.out.print(myArray[i] + " ");
         System.out.println("");
     }
 
