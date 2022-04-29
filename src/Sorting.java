@@ -45,10 +45,10 @@ class Sorting {
     /*Driver function to check for above functions*/
     public static void main(String[] args)
     {
-        int arr[] = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
-        int arr_size = arr.length;
-        sorter(arr, arr_size);
+        int myArray[] = { 0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1 };
+        int arrSize = myArray.length;
+        sorter(myArray, arrSize);
         System.out.println("Array after sorting ");
-        printArray(arr, arr_size);
+        printArray(myArray, arrSize);
     }
 }
